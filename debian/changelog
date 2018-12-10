@@ -1,0 +1,11 @@
+llx-qjack-pulse-integrator (0.2) xenial; urgency=high
+
+  * Adding dependences pulseaudio-module-jack 
+
+ -- Daniel Duran Vecino <daduve@gmail.com>  Mon, 17 Sep 2018 14:19:07 +0200
+
+llx-qjack-pulse-integrator (0.1) xenial; urgency=high
+
+  * initial release 
+
+ -- Daniel Duran Vecino <daduve@gmail.com>  Wed, 18 Jul 2018 09:08:11 +0200
