@@ -1,9 +1,10 @@
 Format-Specification: http://wiki.debian.org/Proposals/CopyrightFormat?action=recall&rev=143
 Upstream-Name: LliureX
-Upstream-Source: http://lliurex.net/
+Upstream-Source: https://github.com/lliurex/llx-qjack-pulse-integrator
 
 Files: *
-Copyright: Copyright 2013 Hector Garcia Huerta <lliurex_devel1@edu.gva.es>
+Copyright: Copyright 2018 Raul Rodrigo Segura <raurodse@gmail.com>
+           Copyright 2018 Daniel Duran Vecino <daduve@gmail.com>		
 License: GPL-3+
  
 License: GPL-3+
