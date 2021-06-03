@@ -43,8 +43,13 @@ load-module module-switch-on-port-available
 ### Load audio drivers statically
 ### (it's probably better to not load these drivers manually, but instead
 ### use module-udev-detect -- see below -- for doing this automatically)
-load-module module-jack-sink
-load-module module-jack-source
+
+# PRE-CREATE TWO SINK intended to be used with two separate sound streams from internet browsers
+load-module module-jack-sink client_name=pulseaudio-out-1 channels=2
+load-module module-jack-sink client_name=pulseaudio-out-2 channels=2
+
+load-module module-jack-source client_name=pulseaudio-in-1 channels=2
+
 #load-module module-alsa-sink
 #load-module module-alsa-source device=hw:1,0
 #load-module module-oss device="/dev/dsp" sink_name=output source_name=input
